@@ -1,13 +1,14 @@
 namespace csty {
     class Tensor {
+    private:
+        double * data;
+        int order;
     public:
-        // Default constructor
-        Tensor(); 
 
-        // Destructor
+        Tensor(int * shape, int order); 
+
         ~Tensor();
         
-        // Other member functions can be added here
     };
 }
 
