@@ -2,7 +2,7 @@
 
 int main(){
     int shape[] = {1,2,3};
-    int size = sizeof(shape)/sizeof(int);
-    csty::Tensor tensor(shape, size);
+    int order = sizeof(shape)/sizeof(int);
+    csty::Tensor tensor(shape, order);
     return 0;
 }
